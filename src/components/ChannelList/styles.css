@@ -1,0 +1,41 @@
+.channelList {
+  grid-area: CL;
+
+  display: flex;
+  flex-direction: column;
+  padding: 24px 16px;
+
+  background-color: var(--secondary);
+}
+
+.channelList__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--gray);
+  margin-bottom: 6px;
+}
+
+.channelList__header > p {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.channelList__addChannel {
+  font-size: 14px;
+}
+
+.channelList__addChannel:hover {
+  color: var(--white);
+  cursor: pointer;
+}
+
+.channelList__channel {
+  max-height: calc(100vh - 46px - 130px);
+  overflow-y: scroll;
+}
+
+.channelList__channel::-webkit-scrollbar {
+  display: none;
+}

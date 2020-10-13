@@ -1,0 +1,39 @@
+.channelName {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  cursor: pointer;
+  padding: 5px 3px;
+  border-radius: 5px;
+
+  color: var(--senary);
+  background-color: transparent;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.channelName:hover {
+  background-color: var(--quinary);
+  color: var(--white);
+}
+
+.channelName__right,
+.channelName__left {
+  display: flex;
+  align-items: center;
+}
+
+.channelName__hash {
+  margin-right: 8px;
+}
+
+.channelName__title {
+  font-size: 14px;
+}
+
+.channelName__Icon {
+  font-size: 16px !important;
+  margin-left: 4px;
+  color: var(--symbol);
+}

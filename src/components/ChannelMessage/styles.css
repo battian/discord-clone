@@ -1,0 +1,47 @@
+.channelMessage {
+  display: flex;
+  align-items: center;
+
+  padding: 8px 16px;
+  margin-right: 4px;
+  background-color: transparent;
+}
+
+.channelMessage > img {
+  width: 40px;
+  height: 40px;
+  background-color: var(--secondary);
+  border-radius: 50%;
+}
+
+.channelMessage__info {
+  min-height: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-left: 17px;
+}
+
+.channelMessage__header {
+  display: flex;
+  align-items: center;
+}
+
+.channelMessage__header > strong {
+  color: var(--white);
+  font-size: 16px;
+}
+
+.channelMessage__header > span {
+  margin-left: 6px;
+  color: var(--gray);
+  font-size: 10px;
+}
+
+.channelMessage__content {
+  text-align: left;
+  font-size: 16px;
+  color: var(--white);
+}

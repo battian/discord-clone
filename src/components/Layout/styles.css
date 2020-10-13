@@ -1,0 +1,20 @@
+/* 
+SL - Server List
+SN - Server Name
+CI - Channel Info
+CL - Channel List
+CC - Channel Chat
+UI - User Info
+UL - Users List
+*/
+
+.layout {
+  display: grid;
+  grid-template-columns: 71px 240px auto 240px;
+  grid-template-rows: 46px auto 52px;
+  grid-template-areas:
+    'SL SN CI CI'
+    'SL CL CC UL'
+    'SL UI CC UL';
+  height: 100vh;
+}
