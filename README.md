@@ -2,7 +2,7 @@
 
 <p>Discord clone with Redux for study purposes.</p>
 
-<p>Deployed <a href="">here</a>.</p>
+<p>Deployed <a href="https://discord-clone-f062d.web.app/">here</a>.</p>
 
 ## Techs
 
